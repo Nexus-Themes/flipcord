@@ -1,0 +1,36 @@
+/**
+ * @name flipcord
+ * @author Nexus-Themes
+ * @version 1.0.0
+ * @description flips the discord layout from left to right
+ * @source https://github.com/Nexus-Themes/flipcord
+*/
+
+@import url('https://nexus-themes.github.io/flipcord/flipcord.css');
+
+.content__5e434 {
+  rotate: 180deg;
+}
+.content__5e434 .page__5e434 {
+  rotate: 180deg;
+}
+.content__5e434 .page__5e434 .chatContent_f75fb0, .content__5e434 .page__5e434 .container_f369db, .content__5e434 .page__5e434 .peopleColumn__133bf {
+  order: 5;
+}
+.content__5e434 .sidebar__5e434 {
+  rotate: 180deg;
+  direction: rtl;
+}
+.content__5e434 .sidebar__5e434 .sidebarList__5e434, .content__5e434 .sidebar__5e434 .panels__5e434 {
+  direction: ltr;
+}
+.content__5e434 .sidebar__5e434 .sidebarList__5e434 {
+  border-top-left-radius: 0;
+}
+.content__5e434 .sidebar__5e434 .guilds__5e434 {
+  border-top: 1px solid var(--app-frame-border);
+  border-top-right-radius: var(--radius-md);
+}
+.content__5e434 .sidebar__5e434 .guilds__5e434 .stack_dbd263 {
+  padding-top: 5px;
+}
