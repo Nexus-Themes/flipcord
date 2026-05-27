@@ -1,0 +1,26 @@
+.content__5e434 {
+	rotate: 180deg;
+	.page__5e434 {
+		rotate: 180deg;
+		.chatContent_f75fb0, .container_f369db, .peopleColumn__133bf {
+			order: 5;
+		}
+	}
+	.sidebar__5e434 {
+		rotate: 180deg;
+		direction: rtl;
+		.sidebarList__5e434, .panels__5e434 {
+			direction: ltr;
+		}
+		.sidebarList__5e434 {
+			border-top-left-radius: 0;
+		}
+		.guilds__5e434 {
+			border-top: 1px solid var(--app-frame-border);
+			border-top-right-radius: var(--radius-md);
+			.stack_dbd263 {
+				padding-top: 5px;
+			}
+		}
+	}
+}
